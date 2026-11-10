@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - MyFinances TTU</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h2>MyFinances <span>TTU</span></h2>
+        <nav>
+            <a href="index.html">Home</a>
+<a href="signup.html">Sign Up</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="budgets.html">Budgets</a>
+<a href="goals.html">Goals</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Create your account</h1>
+<p>Start your financial journey at Texas Tech.</p>
+<section class="card">
+    <h2>Tell us about yourself</h2>
+    <form action="dashboard.html">
+        <label for="name">Full name</label><input id="name" type="text" required>
+        <label for="email">Texas Tech email</label><input id="email" type="email" required>
+        <label for="password">Password</label><input id="password" type="password" required>
+        <h3>Set up your monthly budget</h3>
+        <label for="income">Monthly income ($)</label><input id="income" type="number" min="0">
+        <label for="rent">Housing / Rent ($)</label><input id="rent" type="number" min="0">
+        <label for="food">Food ($)</label><input id="food" type="number" min="0">
+        <label for="books">Books ($)</label><input id="books" type="number" min="0">
+        <button type="submit">Create Account</button>
+    </form>
+</section>
+    </main>
+    <footer><p>MyFinances TTU</p></footer>
+</body>
+</html>
